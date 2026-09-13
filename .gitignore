@@ -1,0 +1,26 @@
+# Engagement-specific / sensitive material — never commit
+*.pcap
+*.pcapng
+loot/
+scope/
+creds.txt
+*.kdbx
+
+# Common scan/tool output
+*.nmap
+*.gnmap
+nmap-*.xml
+*.nessus
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
