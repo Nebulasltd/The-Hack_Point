@@ -33,7 +33,7 @@ Everything here is for authorized security testing, CTF practice, and personal l
 - [Methodology & Frameworks](#methodology--frameworks)
 - [Learning Platforms & Practice](#learning-platforms--practice)
 - [Certifications](#certifications)
-- [Certification Modules](#certification-modules) — deep-dive study modules ([CISSP](cissp/README.md), [CISA](cisa/README.md))
+- [Standalone Modules](#standalone-modules) — deep-dive modules ([CISSP](cissp/README.md), [CISA](cisa/README.md), [AI/ML Security](ai-security/README.md))
 - [Contributing](#contributing)
 
 ## Repo Structure
@@ -48,13 +48,15 @@ hacking-resources/
 ├── cisa/                 # CISA certification study module
 │   ├── domains/           # full outline per domain (5 files)
 │   └── practice-questions/ # original practice questions per domain (5 files)
+├── ai-security/           # AI/ML security module (attacking AI + fraud-model robustness)
 └── notes/
     ├── recon/            # personal recon methodology & notes
     ├── exploitation/      # exploitation notes/write-ups
     ├── post-exploitation/ # post-exploitation & privesc notes
     ├── reporting/         # report templates and writing notes
     ├── cissp/             # personal CISSP study notes/progress
-    └── cisa/              # personal CISA study notes/progress
+    ├── cisa/              # personal CISA study notes/progress
+    └── ai-security/       # personal AI/ML security notes
 ```
 
 The `README.md` is the index of external tools/resources. `notes/` and `cheatsheets/` are where you build up your own material (lab write-ups, CTF solutions, engagement notes) over time. `cissp/` and `cisa/` are standalone certification study modules — domain breakdowns, exam format, and resources, separate from the pentest tool index above.
@@ -228,12 +230,13 @@ Quick-reference commands: [`cheatsheets/forensics.md`](cheatsheets/forensics.md)
 - [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) — Certified Ethical Hacker (EC-Council)
 - [OSWE / OSEP / OSED](https://www.offsec.com/courses/) — advanced Offensive Security certifications
 
-## Certification Modules
+## Standalone Modules
 
-Standalone study modules — domain breakdowns, exam format, and resources — kept separate from the pentest/red-team material above since they're a different kind of prep:
+Deeper, self-contained modules — certification prep and specific technical topics — kept separate from the tool-index material above since they're a different kind of content:
 
-- [CISSP](cissp/README.md) — Certified Information Systems Security Professional (ISC2), management-level security certification
-- [CISA](cisa/README.md) — Certified Information Systems Auditor (ISACA), IS/IT audit and assurance certification
+- [CISSP](cissp/README.md) — Certified Information Systems Security Professional (ISC2): 8 domain outlines + 80 original practice questions
+- [CISA](cisa/README.md) — Certified Information Systems Auditor (ISACA): 5 domain outlines + 50 original practice questions
+- [AI / ML Security](ai-security/README.md) — attacking/red-teaming AI systems, plus a deep dive on measuring how much a fraud-detection model's signal comes from adversary-controllable features vs. features an attacker can't fake
 
 ## Contributing
 
