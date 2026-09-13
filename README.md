@@ -33,6 +33,7 @@ Everything here is for authorized security testing, CTF practice, and personal l
 - [Methodology & Frameworks](#methodology--frameworks)
 - [Learning Platforms & Practice](#learning-platforms--practice)
 - [Certifications](#certifications)
+- [Certification Modules](#certification-modules) — deep-dive study modules ([CISSP](cissp/README.md), [CISA](cisa/README.md))
 - [Contributing](#contributing)
 
 ## Repo Structure
@@ -41,14 +42,18 @@ Everything here is for authorized security testing, CTF practice, and personal l
 hacking-resources/
 ├── README.md            # this index
 ├── cheatsheets/          # quick-reference command sheets, one file per topic
+├── cissp/                # CISSP certification study module
+├── cisa/                 # CISA certification study module
 └── notes/
     ├── recon/            # personal recon methodology & notes
     ├── exploitation/      # exploitation notes/write-ups
     ├── post-exploitation/ # post-exploitation & privesc notes
-    └── reporting/         # report templates and writing notes
+    ├── reporting/         # report templates and writing notes
+    ├── cissp/             # personal CISSP study notes/progress
+    └── cisa/              # personal CISA study notes/progress
 ```
 
-The `README.md` is the index of external tools/resources. `notes/` and `cheatsheets/` are where you build up your own material (lab write-ups, CTF solutions, engagement notes) over time.
+The `README.md` is the index of external tools/resources. `notes/` and `cheatsheets/` are where you build up your own material (lab write-ups, CTF solutions, engagement notes) over time. `cissp/` and `cisa/` are standalone certification study modules — domain breakdowns, exam format, and resources, separate from the pentest tool index above.
 
 ## Recon & OSINT
 
@@ -218,6 +223,13 @@ Quick-reference commands: [`cheatsheets/forensics.md`](cheatsheets/forensics.md)
 - [eJPT / eCPPT](https://elearnsecurity.com/) — INE/eLearnSecurity certifications
 - [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) — Certified Ethical Hacker (EC-Council)
 - [OSWE / OSEP / OSED](https://www.offsec.com/courses/) — advanced Offensive Security certifications
+
+## Certification Modules
+
+Standalone study modules — domain breakdowns, exam format, and resources — kept separate from the pentest/red-team material above since they're a different kind of prep:
+
+- [CISSP](cissp/README.md) — Certified Information Systems Security Professional (ISC2), management-level security certification
+- [CISA](cisa/README.md) — Certified Information Systems Auditor (ISACA), IS/IT audit and assurance certification
 
 ## Contributing
 
