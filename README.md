@@ -141,10 +141,20 @@ The `README.md` is the index of external tools/resources. `notes/` and `cheatshe
 
 ## Mobile
 
-- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) — automated mobile app (Android/iOS) security testing
-- [Frida](https://frida.re/) — dynamic instrumentation toolkit
-- [objection](https://github.com/sensepost/objection) — runtime mobile exploration (built on Frida)
-- [apktool](https://github.com/iBotPeaches/Apktool) — Android APK decompilation/rebuilding
+- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) — automated static + dynamic mobile app (Android/iOS/Windows) vulnerability scanner, the standard starting point
+- [Frida](https://frida.re/) — dynamic instrumentation toolkit (hook methods, bypass checks at runtime, cross-platform)
+- [objection](https://github.com/sensepost/objection) — runtime mobile exploration built on Frida; no jailbreak/root required
+- [apktool](https://github.com/iBotPeaches/Apktool) — Android APK decompilation/rebuilding (smali, resources)
+- [jadx](https://github.com/skylot/jadx) — Android APK/DEX-to-Java decompiler with a GUI, best for reading app logic
+- [Drozer](https://github.com/WithSecureLabs/drozer) — Android attack surface assessment (exported components, content providers, IPC)
+- [QARK](https://github.com/linkedin/qark) — static analysis for Android source/APKs, flags common vuln patterns
+- [Needle](https://github.com/mwrlabs/needle) — iOS security testing framework (binary analysis, storage, IPC, on a jailbroken device)
+- [class-dump](https://github.com/nygard/class-dump) / [Hopper](https://www.hopperapp.com/) — iOS Objective-C header/binary reverse engineering
+- [Charles Proxy](https://www.charlesproxy.com/) — HTTP(S) traffic interception, alternative to Burp/mitmproxy for mobile testing
+- [OWASP MASTG](https://mas.owasp.org/MASTG/) — Mobile Application Security Testing Guide (the methodology reference for everything above)
+- [OWASP MASVS](https://mas.owasp.org/MASVS/) — Mobile Application Security Verification Standard (requirements checklist)
+
+Quick-reference commands: [`cheatsheets/mobile.md`](cheatsheets/mobile.md).
 
 ## Cloud
 
