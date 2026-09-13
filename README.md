@@ -159,7 +159,17 @@ The `README.md` is the index of external tools/resources. `notes/` and `cheatshe
 - [radare2](https://github.com/radareorg/radare2) / [Cutter](https://cutter.re/) — reverse engineering framework and GUI
 - [x64dbg](https://x64dbg.com/) — Windows debugger
 - [Volatility 3](https://github.com/volatilityfoundation/volatility3) — memory forensics
-- [Autopsy](https://www.autopsy.com/) — digital forensics platform
+- [Autopsy](https://www.autopsy.com/) / [The Sleuth Kit](https://www.sleuthkit.org/) — digital forensics platform and underlying disk-analysis toolset
+- [FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager) — disk/memory imaging (free)
+- [KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape) — fast triage artifact collection and processing
+- [Eric Zimmerman's Tools](https://ericzimmerman.github.io/) — MFTECmd, RegistryExplorer, EvtxECmd, and other Windows artifact parsers
+- [RegRipper](https://github.com/keydet89/RegRipper3.0) — Windows registry parsing/analysis
+- [Plaso / log2timeline](https://github.com/log2timeline/plaso) — super-timeline creation from forensic artifacts
+- [YARA](https://github.com/VirusTotal/yara) — pattern matching for malware/artifact identification
+- [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) — network forensic analysis from pcaps
+- [dc3dd](https://sourceforge.net/projects/dc3dd/) / [Guymager](https://guymager.sourceforge.io/) — forensic disk imaging with hashing
+
+Quick-reference commands: [`cheatsheets/forensics.md`](cheatsheets/forensics.md).
 
 ## Reporting
 
