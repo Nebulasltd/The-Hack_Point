@@ -43,7 +43,11 @@ hacking-resources/
 ├── README.md            # this index
 ├── cheatsheets/          # quick-reference command sheets, one file per topic
 ├── cissp/                # CISSP certification study module
+│   ├── domains/           # full outline per domain (8 files)
+│   └── practice-questions/ # original practice questions per domain (8 files)
 ├── cisa/                 # CISA certification study module
+│   ├── domains/           # full outline per domain (5 files)
+│   └── practice-questions/ # original practice questions per domain (5 files)
 └── notes/
     ├── recon/            # personal recon methodology & notes
     ├── exploitation/      # exploitation notes/write-ups

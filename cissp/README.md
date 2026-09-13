@@ -33,29 +33,35 @@ CAT means the exam adapts difficulty to your performance in real time — there'
 | 7 | Security Operations | 13% |
 | 8 | Software Development Security | 10% |
 
-### 1. Security and Risk Management (16%)
+Each domain below has a full outline (subtopics, definitions, exam tips) and a set of original practice questions with explanations:
+
+### 1. [Security and Risk Management](domains/01-security-and-risk-management.md) (16%) — [practice questions](practice-questions/domain-01.md)
 CIA triad and security governance principles; compliance and legal/regulatory requirements (GDPR, data breach notification laws); professional ethics ((ISC)² Code of Ethics); security policy, standards, procedures, guidelines; business continuity requirements; personnel security policies; risk management concepts (threat modeling, risk assessment/analysis, quantitative vs. qualitative); security awareness/training; supply chain risk management.
 
-### 2. Asset Security (10%)
+### 2. [Asset Security](domains/02-asset-security.md) (10%) — [practice questions](practice-questions/domain-02.md)
 Information/asset classification and ownership; privacy protection (data owners, custodians, processors); asset retention; data security controls (data states: at rest, in transit, in use); data handling requirements (marking, labeling, storage).
 
-### 3. Security Architecture and Engineering (13%)
+### 3. [Security Architecture and Engineering](domains/03-security-architecture-and-engineering.md) (13%) — [practice questions](practice-questions/domain-03.md)
 Secure design principles; security models (Bell-LaPadula, Biba, Clark-Wilson); evaluation criteria (Common Criteria, TCSEC); security capabilities of information systems (memory protection, TPM); vulnerabilities in web-based/mobile/embedded/IoT/cloud systems; cryptography (symmetric/asymmetric, hashing, PKI, cryptanalysis); site/facility physical security design.
 
-### 4. Communication and Network Security (13%)
+### 4. [Communication and Network Security](domains/04-communication-and-network-security.md) (13%) — [practice questions](practice-questions/domain-04.md)
 Secure network architecture design (OSI/TCP-IP models, IP networking, converged protocols); secure network components (firewalls, IDS/IPS, endpoint security); secure communication channels (VoIP, multimedia collaboration, remote access, data communications); network attack prevention/mitigation.
 
-### 5. Identity and Access Management — IAM (13%)
+### 5. [Identity and Access Management — IAM](domains/05-identity-and-access-management.md) (13%) — [practice questions](practice-questions/domain-05.md)
 Physical/logical access control to assets; identification and authentication (single/multi-factor, biometrics); identity as a service (federated identity, SSO, IDaaS); third-party identity services; authorization mechanisms (RBAC, ABAC, MAC, DAC); identity/access provisioning lifecycle (account review, deprovisioning).
 
-### 6. Security Assessment and Testing (12%)
+### 6. [Security Assessment and Testing](domains/06-security-assessment-and-testing.md) (12%) — [practice questions](practice-questions/domain-06.md)
 Assessment/audit strategies; security control testing (vulnerability assessment, penetration testing, log reviews, synthetic transactions, code review/testing); test output analysis and reporting; internal/third-party/regulatory audits.
 
-### 7. Security Operations (13%)
+### 7. [Security Operations](domains/07-security-operations.md) (13%) — [practice questions](practice-questions/domain-07.md)
 Investigations support and requirements (evidence collection, digital forensics); logging/monitoring (SIEM, egress monitoring, UEBA); resource provisioning; foundational security operations concepts (need-to-know, separation of duties, job rotation); incident management (detection, response, mitigation, reporting, recovery, remediation, lessons learned); disaster recovery and business continuity; physical security.
 
-### 8. Software Development Security (10%)
+### 8. [Software Development Security](domains/08-software-development-security.md) (10%) — [practice questions](practice-questions/domain-08.md)
 Security in the Software Development Life Cycle (SDLC); security controls in development environments; software security effectiveness assessment; acquired software security impact; secure coding guidelines/standards (OWASP Top 10, CWE); DevSecOps concepts.
+
+## Practice questions
+
+80 original questions (10 per domain), scenario-style and matched to the current exam's format, each with an explanation — not sourced from any official/copyrighted exam bank. Linked per-domain above, or browse [`practice-questions/`](practice-questions/) directly.
 
 ## Study resources
 
