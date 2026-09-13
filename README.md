@@ -33,7 +33,7 @@ Everything here is for authorized security testing, CTF practice, and personal l
 - [Methodology & Frameworks](#methodology--frameworks)
 - [Learning Platforms & Practice](#learning-platforms--practice)
 - [Certifications](#certifications)
-- [Standalone Modules](#standalone-modules) — deep-dive modules ([CISSP](cissp/README.md), [CISA](cisa/README.md), [AI/ML Security](ai-security/README.md), [Cyber Warfare](cyber-warfare/README.md))
+- [Standalone Modules](#standalone-modules) — deep-dive modules ([CISSP](cissp/README.md), [CISA](cisa/README.md), [AI/ML Security](ai-security/README.md), [Secure AI Systems](secure-ai-systems/README.md), [Cyber Warfare](cyber-warfare/README.md))
 - [Contributing](#contributing)
 
 ## Repo Structure
@@ -49,6 +49,7 @@ hacking-resources/
 │   ├── domains/           # full outline per domain (5 files)
 │   └── practice-questions/ # original practice questions per domain (5 files)
 ├── ai-security/           # AI/ML security module (attacking AI + fraud-model robustness)
+├── secure-ai-systems/     # defender/builder module: detecting & protecting AI-integrated systems
 ├── cyber-warfare/         # cyber warfare module (doctrine, law, threat actors, case studies)
 └── notes/
     ├── recon/            # personal recon methodology & notes
@@ -58,6 +59,7 @@ hacking-resources/
     ├── cissp/             # personal CISSP study notes/progress
     ├── cisa/              # personal CISA study notes/progress
     ├── ai-security/       # personal AI/ML security notes
+    ├── secure-ai-systems/ # personal AI-system architecture review & incident notes
     └── cyber-warfare/     # personal cyber warfare notes
 ```
 
@@ -239,6 +241,7 @@ Deeper, self-contained modules — certification prep and specific technical top
 - [CISSP](cissp/README.md) — Certified Information Systems Security Professional (ISC2): 8 domain outlines + 80 original practice questions
 - [CISA](cisa/README.md) — Certified Information Systems Auditor (ISACA): 5 domain outlines + 50 original practice questions
 - [AI / ML Security](ai-security/README.md) — attacking/red-teaming AI systems, plus a deep dive on measuring how much a fraud-detection model's signal comes from adversary-controllable features vs. features an attacker can't fake
+- [Secure AI Systems](secure-ai-systems/README.md) — the defender/builder side: how LLM apps, RAG pipelines, agents, and ML models actually get attacked (prompt injection, excessive agency, poisoning, extraction, supply chain), how to detect it, and a phase-by-phase secure-development checklist
 - [Cyber Warfare](cyber-warfare/README.md) — doctrine and law (Tallinn Manual, LOAC), threat actor taxonomy, critical infrastructure targeting, and case studies (Stuxnet, NotPetya, Ukraine grid attacks, SolarWinds, Volt Typhoon)
 
 ## Contributing
